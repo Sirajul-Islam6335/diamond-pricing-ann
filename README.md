@@ -78,8 +78,7 @@ Then run all cells (Kernel → Restart & Run All). Results are reproducible with
 
 The *Diamonds* dataset, published with the ggplot2 R package and mirrored in [seaborn-data](https://github.com/mwaskom/seaborn-data). It covers 53,940 round-cut diamonds with price in USD. Cleaning removed 20 stones with a zero dimension, 5 with impossible dimensions and 145 exact duplicates, leaving 53,770.
 
-## Limitations and next steps
-
+## Limitations 
 - Prices are historical, not current market prices; a production version would retrain on recent sales.
 - Missing value drivers: fluorescence, certification lab, shape, natural vs lab-grown.
 - The error band is a typical (median) error, not a formal prediction interval. A next step would be an ensemble of networks to produce proper intervals.
